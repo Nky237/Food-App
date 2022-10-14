@@ -6,13 +6,16 @@ import Food2 from '../assests/Food2.png'
 import Food3 from '../assests/Food3.png'
 import App from '../assests/App.png'
 import Landing from '../assests/LandImg.png'
+import Nav from '../Components/Nav'
+import Footer from '../Components/Footer'
 
 
 
 const Home = () => {
   return (
     <div>
-      <div> 
+      <Nav />
+      <div className='contaner'> 
         <div className='wrapper'>
       {/* NAVBAR */}
           <section className='sec1'>
@@ -67,6 +70,7 @@ const Home = () => {
           </section>
         </div>  
       </div>
+      <Footer />
     </div>
   )
 }

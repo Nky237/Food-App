@@ -3,6 +3,7 @@
   width: 100%;
  
 }
+
 .form{
   /* border: 1px solid black; */
   width: 500px;
@@ -18,6 +19,7 @@
   flex-direction: column;
   width: 90%;
   margin: auto;
+  height: 100vh;
 }
 .form input, .form textarea{
   width: 100%;
@@ -123,22 +125,22 @@ nav ul li a{
 }
 .login-sec{
   display: flex;
-  min-height: 500px;
+  min-height: 100vh;
   align-items: center;
   justify-content: center;
 }
 .log-img{
-  width: 40%;
+  width: 50%;
 }
 .login-sec img{
-  height: 500px;
+  height: 100vh;
   width: 100%;
   
 }
 .login-form{
   background-color: white;
-  height: 500px;
-  width: 40%;
+  height: 100vh;
+  width: 50%;
 } 
 .loginy{
   width: 90%;
@@ -158,4 +160,14 @@ nav ul li a{
   width: 100%;
   height: 40px;
   margin-top: 20px;
+}
+
+@media only screen and (max-width:760px) {
+.log-img{
+  display: none;
+
+}
+.login-form{
+  width: 100%;
+}
 }
